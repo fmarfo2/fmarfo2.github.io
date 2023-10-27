@@ -1,0 +1,33 @@
+---
+title: "My Slides"
+author: "Francis Marfo"
+format: revealjs
+editor: visual
+---
+
+## About Me
+
+My name is Francis, I grew up in Ghana, and I am in the statistics program here at UNL. I was born on the 29th of June, and I expect to graduate in the year 2025.
+
+## My Favorite Animal
+
+![](pet.jpg){width="300" height="300"}
+
+## My favorite Plot
+
+```{r}
+#install.packages('ggplot2')
+#install.packages('mclust')
+library(mclust)
+library(ggplot2)
+
+# Create the histogram using ggplot2
+ggplot(banknote, aes(x = Bottom, fill = Status)) +
+  geom_histogram(binwidth = 0.22, color = "grey") +
+  labs(title = "the distribution of the bottom margin of banknotes ", x = "Bottom (mm)", y = "Count")
+
+```
+
+## Link to My Resume
+
+[Here is a link to my Resume](https://fmarfo2.github.io/CV.pdf)
