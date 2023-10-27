@@ -1,4 +1,5 @@
 # fmarfo2.github.io
 My github pages site
-[CV](CV.pdf)
-[Beamer](mbeamer.pdf)
+[CV](CV.pdf) <br />
+[Beamer](mbeamer.pdf) <br />
+[Slides](slide.html)
