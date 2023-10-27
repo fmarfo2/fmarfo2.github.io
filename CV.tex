@@ -1,0 +1,74 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large FRANCIS MARFO}\\[2pt] % Name
+Lincoln, Nebraska | \href{mailto:francismarfo9@gmail.com}{francismarfo9@gmail.com} | (402) 610-0555 | \href{https://www.linkedin.com/in/johndoe}{linkedin.com/in/francismarfo} |
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{University of Nebraska-Lincoln}, Lincoln, Nebraska \hfill Enrolled: August 2023 | Expected: July 2025\\ % University name and location
+MSc. Statistics \hfill Overall GPA: N/A | Major GPA N/A\\ % Degree and GPA
+Threads: Example and Example \hfill Credit standing: Honors % Additional info
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{Social Security and National Insurance Trust} \hfill Dunkwa, Ghana\\ % Company name and location
+\textit{Financial Data Officer} \hfill September 2021 - August 2022 % Position and duration
+\begin{itemize}
+    \item Validation of monthly contribution reports.
+     \item Enrolement and re-enrolement of new members on the pension scheme.% Job responsibilities and achievements
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+\noindent
+\textbf{Glokenneies Foundation} \hfill Accra, Ghana\\ % Project or organization name and location
+\textit{Web developer \& publicity strategist, Volunteer} \hfill Month Year – Month Year % Position and duration
+\begin{itemize}
+    \item Developing and managing the website of Glokennies % Responsibilities and achievements
+\end{itemize}
+
+% Projects Section
+\section*{PROJECTS}
+\noindent
+\textbf{Project Name} \hfill City, State\\ % Project name and location
+\textit{Project Link:} \url{https://github.com/username/projectname} \hfill Month Year - Status % Project link and duration
+\begin{itemize}
+    \item Description of the project and your contributions. % Project description and contributions
+\end{itemize}
+
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Relevant Coursework:} Calculus, Numerical Analysis, and Mathematical Statistic. % Relevant coursework
+    \item \textbf{Programming:} Python, R, Visual Basic for Applications, and PHP. % Programming skills
+    \item \textbf{Software:} SPSS. % Software skills
+    \item \textbf{Communication:} Proficient in English language. % Communication skills
+\end{itemize}
+
+% End document
+\end{document}
